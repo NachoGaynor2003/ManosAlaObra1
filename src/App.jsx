@@ -22,7 +22,7 @@ function App() {
         </div>
         <div className="item-tarea">
           <input type="checkbox" />
-          Completed Task N-2
+          <del>Completed Task N-2</del>
           <p className="TachoBasura">&#128465;</p>
         </div>
         <div className="item-tarea">
@@ -35,7 +35,8 @@ function App() {
         </div>
         <div className="item-tarea">
           <input type="checkbox" />
-          Completed Task 1<p className="TachoBasura">&#128465;</p>
+          <del>Completed Task 1</del>
+          <p className="TachoBasura">&#128465;</p>
         </div>
       </div>
     </div>
